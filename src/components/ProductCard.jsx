@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { FiShoppingCart } from 'react-icons/fi';
 
 function ProductCard({ product }) {
   const navigate = useNavigate();
@@ -73,7 +72,6 @@ function ProductCard({ product }) {
           onClick={handleAddToCart}
           className="flex items-center gap-2 bg-brandGreen text-black border-2 border-[#32CD32] px-4 py-2 rounded"
         >
-          <FiShoppingCart className="text-lg" />
           Add to Cart
         </button>
       </div>

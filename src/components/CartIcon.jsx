@@ -8,7 +8,6 @@ const CartIcon = () => {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     setCartProductsCount(cart.length);
   };
-console.log(cartProductsCount)
   useEffect(() => {
     calculateCartProductsCount();
 
